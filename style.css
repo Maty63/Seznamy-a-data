@@ -88,3 +88,8 @@ td.doleva{
     color: red;
     font-weight: bold;
 }
+
+dt {
+    font-weight: bold;
+    color: black;
+}
