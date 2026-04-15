@@ -1,0 +1,90 @@
+:root {
+--table-border: #6e6e6e;
+--table-total: #ff1eff
+}
+
+
+
+ th, td{
+    border: 1px solid #666;
+    padding: 8px;
+    text-align: center;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+
+.nadpis {
+    position: relative;       
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: #a33a3a;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 20px 0;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+
+.sipka {
+    position: absolute;
+    left: 15px;              
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: #1f4e79;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+thead {
+    background-color: #eeeeee;
+    font-weight: bold;
+}
+
+caption {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+}
+
+tfoot {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+
+td.cislo {
+    text-align: right;
+}
+
+td.doleva{
+    text-align: left;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
